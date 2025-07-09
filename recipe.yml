@@ -1,0 +1,5 @@
+name: 'ICMS Location  - Content Recipe'
+description: 'Provide default content for the ICMS Location.'
+type: 'Content'
+recipes:
+  - icms_base_content

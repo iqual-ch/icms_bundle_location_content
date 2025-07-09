@@ -1,0 +1,192 @@
+_meta:
+  version: '1.0'
+  entity_type: node
+  uuid: 5edfe445-73e5-4ec5-8994-b6d7f566194b
+  bundle: icms_location
+  default_langcode: de
+  depends:
+    d99e7252-4555-4701-a788-25befa086176: user
+    6462ab73-beb9-449b-b85b-29b185216c3e: media
+    73a2d543-f54a-4839-82e8-b47627635b66: taxonomy_term
+    f8a1a06a-c8bd-4efc-bc59-8feee29d4808: taxonomy_term
+    b64307f3-9232-4837-a09d-dcfd877ad189: taxonomy_term
+default:
+  revision_uid:
+    -
+      target_id: 1
+  status:
+    -
+      value: true
+  uid:
+    -
+      entity: d99e7252-4555-4701-a788-25befa086176
+  title:
+    -
+      value: 'Standort 3 Thema A/B/C'
+  created:
+    -
+      value: 1752079202
+  promote:
+    -
+      value: false
+  sticky:
+    -
+      value: false
+  revision_translation_affected:
+    -
+      value: true
+  moderation_state:
+    -
+      value: published
+  metatag:
+    -
+      tag: meta
+      attributes:
+        name: title
+        content: 'Standort 3 Thema A/B/C | ICMS'
+    -
+      tag: meta
+      attributes:
+        name: description
+        content: 'Standort 3 zu den Themen A, B und C'
+    -
+      tag: link
+      attributes:
+        rel: canonical
+        href: 'https://starterkit.ddev.site/de/standorte/standort-3-thema-abc'
+    -
+      tag: link
+      attributes:
+        rel: image_src
+        href: 'https://starterkit.ddev.site/sites/default/files/styles/icms_og_image/public/media/images/Placeholder-iqual-CMS.png?h=a92f03cd&itok=7uKpaykS'
+  path:
+    -
+      alias: /standorte/standort-3-thema-abc
+      langcode: de
+      pathauto: 1
+  content_translation_source:
+    -
+      value: und
+  content_translation_outdated:
+    -
+      value: false
+  body:
+    -
+      value: 'Standort 3 zu den Themen A, B und C'
+      format: plain_text
+      summary: ''
+  field_blokkli_comments:
+    -
+      status: 2
+      cid: 0
+      last_comment_timestamp: 1752127280
+      last_comment_name: ''
+      last_comment_uid: 17
+      comment_count: 0
+  field_icms_address:
+    -
+      langcode: ''
+      country_code: 'CH'
+      administrative_area: ''
+      locality: 'Luzern'
+      dependent_locality: ''
+      postal_code: '6003'
+      sorting_code: ''
+      address_line1: 'Bahnhofplatz'
+      address_line2: ''
+      address_line3: ''
+      organization: ''
+      given_name: ''
+      additional_name: ''
+      family_name: ''
+  field_icms_coordinates:
+    -
+      lat: 47.050208585166
+      lng: 8.3102881908417
+      lat_sin: 0.73195105939297
+      lat_cos: 0.68135720929151
+      lng_rad: 0.14504189071979
+      data: {  }
+  field_icms_email:
+    -
+      value: location3@email.ch
+  field_icms_image:
+    -
+      entity: 6462ab73-beb9-449b-b85b-29b185216c3e
+  field_icms_opening_hours:
+    -
+      day: 1
+      all_day: false
+      starthours: 700
+      endhours: 1200
+      comment: ''
+    -
+      day: 1
+      all_day: false
+      starthours: 1300
+      endhours: 1700
+      comment: ''
+    -
+      day: 2
+      all_day: false
+      starthours: 700
+      endhours: 1200
+      comment: ''
+    -
+      day: 2
+      all_day: false
+      starthours: 1300
+      endhours: 1700
+      comment: ''
+    -
+      day: 3
+      all_day: false
+      starthours: 700
+      endhours: 1200
+      comment: ''
+    -
+      day: 3
+      all_day: false
+      starthours: 1300
+      endhours: 1700
+      comment: ''
+    -
+      day: 4
+      all_day: false
+      starthours: 700
+      endhours: 1200
+      comment: ''
+    -
+      day: 4
+      all_day: false
+      starthours: 1300
+      endhours: 1700
+      comment: ''
+    -
+      day: 5
+      all_day: false
+      starthours: 700
+      endhours: 1200
+      comment: ''
+    -
+      day: 5
+      all_day: false
+      starthours: 1300
+      endhours: 1600
+      comment: ''
+  field_icms_phone:
+    -
+      value: '+41 79 123 45 67'
+  field_icms_teaser_pretitle:
+    -
+      value: Standort
+  field_icms_teaser_title:
+    -
+      value: 'Standort zu den themen A, B und C'
+  field_icms_topics:
+    -
+      entity: 73a2d543-f54a-4839-82e8-b47627635b66
+    -
+      entity: f8a1a06a-c8bd-4efc-bc59-8feee29d4808
+    -
+      entity: b64307f3-9232-4837-a09d-dcfd877ad189

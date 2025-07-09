@@ -1,0 +1,64 @@
+_meta:
+  version: '1.0'
+  entity_type: menu_link_content
+  uuid: 6a2e6adc-432a-44d4-9769-c7febe12b245
+  bundle: main
+  default_langcode: de
+  depends:
+    9ab0368a-3ac3-4691-a759-0f305ca876c9: node
+default:
+  enabled:
+    -
+      value: true
+  title:
+    -
+      value: Standorte
+  menu_name:
+    -
+      value: main
+  link:
+    -
+      target_uuid: 9ab0368a-3ac3-4691-a759-0f305ca876c9
+      title: ''
+      options: {  }
+  external:
+    -
+      value: false
+  rediscover:
+    -
+      value: false
+  weight:
+    -
+      value: 51
+  expanded:
+    -
+      value: false
+  revision_translation_affected:
+    -
+      value: true
+  metatag:
+    -
+      tag: meta
+      attributes:
+        name: title
+        content: '| ICMS'
+    -
+      tag: link
+      attributes:
+        rel: canonical
+        href: 'https://starterkit.ddev.site/de'
+  content_translation_source:
+    -
+      value: und
+  content_translation_outdated:
+    -
+      value: false
+  content_translation_uid:
+    -
+      target_id: 1
+  content_translation_status:
+    -
+      value: true
+  content_translation_created:
+    -
+      value: 1752076772
