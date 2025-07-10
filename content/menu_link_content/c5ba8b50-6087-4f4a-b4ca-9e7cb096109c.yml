@@ -1,0 +1,68 @@
+_meta:
+  version: '1.0'
+  entity_type: menu_link_content
+  uuid: c5ba8b50-6087-4f4a-b4ca-9e7cb096109c
+  bundle: main
+  default_langcode: de
+  depends:
+    6a2e6adc-432a-44d4-9769-c7febe12b245: menu_link_content
+    41cb89b6-dd3a-4eb3-9913-14904d5a477d: node
+default:
+  enabled:
+    -
+      value: true
+  title:
+    -
+      value: 'Standort Kontextfilter'
+  menu_name:
+    -
+      value: main
+  link:
+    -
+      target_uuid: 41cb89b6-dd3a-4eb3-9913-14904d5a477d
+      title: ''
+      options: {  }
+  external:
+    -
+      value: false
+  rediscover:
+    -
+      value: false
+  weight:
+    -
+      value: 0
+  expanded:
+    -
+      value: false
+  parent:
+    -
+      value: 'menu_link_content:6a2e6adc-432a-44d4-9769-c7febe12b245'
+  revision_translation_affected:
+    -
+      value: true
+  metatag:
+    -
+      tag: meta
+      attributes:
+        name: title
+        content: '| ICMS'
+    -
+      tag: link
+      attributes:
+        rel: canonical
+        href: 'https://starterkit.ddev.site/de'
+  content_translation_source:
+    -
+      value: und
+  content_translation_outdated:
+    -
+      value: false
+  content_translation_uid:
+    -
+      target_id: 1
+  content_translation_status:
+    -
+      value: true
+  content_translation_created:
+    -
+      value: 1752156283
