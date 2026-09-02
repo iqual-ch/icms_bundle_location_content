@@ -3,11 +3,12 @@ _meta:
   entity_type: node
   uuid: b05b609b-1a0f-4bd5-a5ef-10bce53ca5a2
   bundle: icms_location
-  default_langcode: de
+  default_langcode: en
   depends:
     d99e7252-4555-4701-a788-25befa086176: user
-    6462ab73-beb9-449b-b85b-29b185216c3e: media
+    da923ff9-3c3a-4d38-998d-29b826b1036f: media
     f8a1a06a-c8bd-4efc-bc59-8feee29d4808: taxonomy_term
+    8a653cc6-f666-4cbb-99db-349cb90b9659: media
 default:
   revision_uid:
     -
@@ -20,10 +21,7 @@ default:
       entity: d99e7252-4555-4701-a788-25befa086176
   title:
     -
-      value: 'Standort 2 Thema B'
-  created:
-    -
-      value: 1752078217
+      value: 'Dolor sit amet (Thema B)'
   promote:
     -
       value: false
@@ -36,31 +34,10 @@ default:
   moderation_state:
     -
       value: published
-  metatag:
-    -
-      tag: meta
-      attributes:
-        name: title
-        content: 'Standort 2 Thema B | ICMS'
-    -
-      tag: meta
-      attributes:
-        name: description
-        content: 'Standort zum Thema B'
-    -
-      tag: link
-      attributes:
-        rel: canonical
-        href: 'https://starterkit.ddev.site/de/standorte/standort-2-thema-b'
-    -
-      tag: link
-      attributes:
-        rel: image_src
-        href: 'https://starterkit.ddev.site/sites/default/files/styles/icms_og_image/public/media/images/Placeholder-iqual-CMS.png?h=a92f03cd&itok=7uKpaykS'
   path:
     -
-      alias: /standorte/standort-2-thema-b
-      langcode: de
+      alias: /locations/dolor-sit-amet-thema-b
+      langcode: en
       pathauto: 1
   content_translation_source:
     -
@@ -70,47 +47,38 @@ default:
       value: false
   body:
     -
-      value: 'Standort zum Thema B'
+      value: 'Elit potenti tortor porttitor montes dolor consectetur mollis dignissim cubilia ligula lorem. Cubilia ligula lorem sit adipiscing ornare posuere sociosqu mauris. Ipsum amet elit potenti tortor porttitor montes dolor consectetur mollis dignissim.'
       format: plain_text
       summary: ''
   field_blokkli_comments:
     -
       status: 2
       cid: 0
-      last_comment_timestamp: 1752127280
+      last_comment_timestamp: 1788181955
       last_comment_name: ''
-      last_comment_uid: 17
+      last_comment_uid: 2
       comment_count: 0
   field_icms_address:
     -
       langcode: ''
-      country_code: 'CH'
+      country_code: CH
       administrative_area: ''
-      locality: 'Zürich'
-      dependent_locality: ''
+      locality: Zürich
       postal_code: '8001'
       sorting_code: ''
-      address_line1: 'Bahnhofstrasse'
+      address_line1: Bahnhofstrasse
       address_line2: ''
-      address_line3: ''
-      organization: ''
-      given_name: ''
-      additional_name: ''
-      family_name: ''
   field_icms_coordinates:
     -
       lat: 47.377683369688
       lng: 8.5408052802086
-      lat_sin: 0.73583338899543
-      lat_cos: 0.67716262717275
-      lng_rad: 0.14906517291136
       data: {  }
   field_icms_email:
     -
       value: location2@email.ch
   field_icms_image:
     -
-      entity: 6462ab73-beb9-449b-b85b-29b185216c3e
+      entity: da923ff9-3c3a-4d38-998d-29b826b1036f
   field_icms_opening_hours:
     -
       day: 1
@@ -172,15 +140,360 @@ default:
       starthours: 1300
       endhours: 1600
       comment: ''
+  field_icms_paragraphs:
+    -
+      entity:
+        _meta:
+          version: '1.0'
+          entity_type: paragraph
+          uuid: 80c12134-c1b4-486a-b52c-7a1746af5ec3
+          bundle: icms_layout_text
+          default_langcode: en
+        default:
+          status:
+            -
+              value: true
+          behavior_settings:
+            -
+              value:
+                paragraphs_blokkli_data:
+                  width: medium
+                  spacingTop: small
+                  spacingBottom: small
+          revision_translation_affected:
+            -
+              value: true
+          content_translation_source:
+            -
+              value: und
+          content_translation_outdated:
+            -
+              value: false
+          field_icms_text:
+            -
+              value: '<p>Ipsum amet elit potenti tortor porttitor montes dolor consectetur mollis dignissim cubilia ligula lorem. <strong>dolor consectetur</strong> ornare posuere sociosqu mauris ipsum amet.</p><ul><li>Porttitor montes dolor consectetur</li><li>Sit adipiscing ornare posuere</li><li>Potenti tortor porttitor montes</li></ul>'
+              format: icms_basic
+          field_icms_title:
+            -
+              value: 'Cubilia ligula lorem sit'
+          field_icms_title_style:
+            -
+              value: heading-2
+          field_icms_title_weight:
+            -
+              value: h2
+        translations:
+          de:
+            status:
+              -
+                value: true
+            revision_translation_affected:
+              -
+                value: true
+            content_translation_source:
+              -
+                value: und
+            content_translation_outdated:
+              -
+                value: false
+            field_icms_text:
+              -
+                value: '<p>Iste accusantium totam quae architecto dicta unde natus doloremque aperiam inventore beatae sed omnis. <strong>natus doloremque</strong> eaque veritatis vitae perspiciatis iste accusantium.</p><ul><li>Dicta unde natus doloremque</li><li>Voluptatem laudantium eaque veritatis</li><li>Quae architecto dicta unde</li></ul>'
+                format: icms_basic
+            field_icms_title:
+              -
+                value: 'Totam quae architecto dicta'
+          fr:
+            status:
+              -
+                value: true
+            revision_translation_affected:
+              -
+                value: true
+            content_translation_source:
+              -
+                value: und
+            content_translation_outdated:
+              -
+                value: false
+            field_icms_text:
+              -
+                value: '<p>Accusamus dignissimos praesentium corrupti quas occaecati similique iusto ducimus voluptatum quos molestias cupiditate vero. <strong>iusto ducimus</strong> deleniti dolores excepturi provident accusamus dignissimos.</p><ul><li>Occaecati similique iusto ducimus</li><li>Odio blanditiis deleniti dolores</li><li>Corrupti quas occaecati similique</li></ul>'
+                format: icms_basic
+            field_icms_title:
+              -
+                value: 'Molestias cupiditate vero odio'
+          it:
+            status:
+              -
+                value: true
+            revision_translation_affected:
+              -
+                value: true
+            content_translation_source:
+              -
+                value: und
+            content_translation_outdated:
+              -
+                value: false
+            field_icms_text:
+              -
+                value: '<p>Enim aspernatur consequuntur sequi porro adipisci modi ipsam odit magni nesciunt quisquam numquam nemo. <strong>ipsam odit</strong> ratione neque dolorem eius enim aspernatur.</p><ul><li>Adipisci modi ipsam odit</li><li>Voluptas fugit ratione neque</li><li>Sequi porro adipisci modi</li></ul>'
+                format: icms_basic
+            field_icms_title:
+              -
+                value: 'Quisquam numquam nemo voluptas'
+    -
+      entity:
+        _meta:
+          version: '1.0'
+          entity_type: paragraph
+          uuid: 5b6ecfc7-7edd-447c-aa86-09d0a61537cd
+          bundle: icms_layout_text_media
+          default_langcode: en
+        default:
+          status:
+            -
+              value: true
+          behavior_settings:
+            -
+              value:
+                paragraphs_blokkli_data:
+                  alignHorizontalReduced: right
+                  imageFormat: landscape
+                  spacingTop: small
+                  spacingBottom: large
+          revision_translation_affected:
+            -
+              value: true
+          content_translation_source:
+            -
+              value: und
+          content_translation_outdated:
+            -
+              value: false
+          field_icms_media_elements:
+            -
+              entity: 8a653cc6-f666-4cbb-99db-349cb90b9659
+          field_icms_subtitle:
+            -
+              value: 'Sociosqu mauris ipsum amet elit potenti.'
+          field_icms_text:
+            -
+              value: '<p>Dolor consectetur mollis dignissim cubilia ligula lorem sit adipiscing ornare posuere sociosqu mauris ipsum. <strong>sit adipiscing</strong> potenti tortor porttitor montes dolor consectetur.</p>'
+              format: icms_basic
+          field_icms_title:
+            -
+              value: 'Mollis dignissim cubilia ligula'
+          field_icms_title_style:
+            -
+              value: heading-3
+          field_icms_title_weight:
+            -
+              value: h2
+        translations:
+          de:
+            status:
+              -
+                value: true
+            revision_translation_affected:
+              -
+                value: true
+            content_translation_source:
+              -
+                value: und
+            content_translation_outdated:
+              -
+                value: false
+            field_icms_subtitle:
+              -
+                value: 'Veritatis vitae perspiciatis iste accusantium totam.'
+            field_icms_text:
+              -
+                value: '<p>Unde natus doloremque aperiam inventore beatae sed omnis voluptatem laudantium eaque veritatis vitae perspiciatis. <strong>omnis voluptatem</strong> totam quae architecto dicta unde natus.</p>'
+                format: icms_basic
+            field_icms_title:
+              -
+                value: 'Doloremque aperiam inventore beatae'
+          fr:
+            status:
+              -
+                value: true
+            revision_translation_affected:
+              -
+                value: true
+            content_translation_source:
+              -
+                value: und
+            content_translation_outdated:
+              -
+                value: false
+            field_icms_subtitle:
+              -
+                value: 'Excepturi provident accusamus dignissimos praesentium corrupti.'
+            field_icms_text:
+              -
+                value: '<p>Iusto ducimus voluptatum quos molestias cupiditate vero odio blanditiis deleniti dolores excepturi provident accusamus. <strong>odio blanditiis</strong> corrupti quas occaecati similique iusto ducimus.</p>'
+                format: icms_basic
+            field_icms_title:
+              -
+                value: 'Voluptatum quos molestias cupiditate'
+          it:
+            status:
+              -
+                value: true
+            revision_translation_affected:
+              -
+                value: true
+            content_translation_source:
+              -
+                value: und
+            content_translation_outdated:
+              -
+                value: false
+            field_icms_subtitle:
+              -
+                value: 'Dolorem eius enim aspernatur consequuntur sequi.'
+            field_icms_text:
+              -
+                value: '<p>Ipsam odit magni nesciunt quisquam numquam nemo voluptas fugit ratione neque dolorem eius enim. <strong>voluptas fugit</strong> sequi porro adipisci modi ipsam odit.</p>'
+                format: icms_basic
+            field_icms_title:
+              -
+                value: 'Magni nesciunt quisquam numquam'
   field_icms_phone:
     -
       value: '+41 79 123 45 67'
   field_icms_teaser_pretitle:
     -
-      value: Standort
+      value: Locations
   field_icms_teaser_title:
     -
-      value: 'Standort zum Thema B'
+      value: 'Dolor sit amet (Thema B)'
   field_icms_topics:
     -
       entity: f8a1a06a-c8bd-4efc-bc59-8feee29d4808
+translations:
+  de:
+    status:
+      -
+        value: true
+    uid:
+      -
+        entity: d99e7252-4555-4701-a788-25befa086176
+    title:
+      -
+        value: 'Unde omnis iste (Thema B)'
+    promote:
+      -
+        value: false
+    sticky:
+      -
+        value: false
+    moderation_state:
+      -
+        value: published
+    path:
+      -
+        alias: /standorte/unde-omnis-iste-thema-b
+        langcode: de
+        pathauto: 0
+    content_translation_source:
+      -
+        value: und
+    content_translation_outdated:
+      -
+        value: false
+    body:
+      -
+        value: 'Accusantium totam quae architecto dicta unde natus doloremque aperiam inventore beatae sed. Inventore beatae sed omnis voluptatem laudantium eaque veritatis vitae. Perspiciatis iste accusantium totam quae architecto dicta unde natus doloremque aperiam.'
+        format: plain_text
+        summary: ''
+    field_icms_teaser_pretitle:
+      -
+        value: Standorte
+    field_icms_teaser_title:
+      -
+        value: 'Unde omnis iste (Thema B)'
+  fr:
+    status:
+      -
+        value: true
+    uid:
+      -
+        entity: d99e7252-4555-4701-a788-25befa086176
+    title:
+      -
+        value: 'Iusto odio dignissimos (Thema B)'
+    promote:
+      -
+        value: false
+    sticky:
+      -
+        value: false
+    moderation_state:
+      -
+        value: published
+    path:
+      -
+        alias: /sites/iusto-odio-dignissimos-thema-b
+        langcode: fr
+        pathauto: 0
+    content_translation_source:
+      -
+        value: und
+    content_translation_outdated:
+      -
+        value: false
+    body:
+      -
+        value: 'Praesentium corrupti quas occaecati similique iusto ducimus voluptatum quos molestias cupiditate vero. Molestias cupiditate vero odio blanditiis deleniti dolores excepturi provident. Accusamus dignissimos praesentium corrupti quas occaecati similique iusto ducimus voluptatum quos.'
+        format: plain_text
+        summary: ''
+    field_icms_teaser_pretitle:
+      -
+        value: Sites
+    field_icms_teaser_title:
+      -
+        value: 'Iusto odio dignissimos (Thema B)'
+  it:
+    status:
+      -
+        value: true
+    uid:
+      -
+        entity: d99e7252-4555-4701-a788-25befa086176
+    title:
+      -
+        value: 'Voluptas aspernatur (Thema B)'
+    promote:
+      -
+        value: false
+    sticky:
+      -
+        value: false
+    moderation_state:
+      -
+        value: published
+    path:
+      -
+        alias: /sedi/voluptas-aspernatur-thema-b
+        langcode: it
+        pathauto: 0
+    content_translation_source:
+      -
+        value: und
+    content_translation_outdated:
+      -
+        value: false
+    body:
+      -
+        value: 'Consequuntur sequi porro adipisci modi ipsam odit magni nesciunt quisquam numquam nemo. Quisquam numquam nemo voluptas fugit ratione neque dolorem eius. Enim aspernatur consequuntur sequi porro adipisci modi ipsam odit magni nesciunt.'
+        format: plain_text
+        summary: ''
+    field_icms_teaser_pretitle:
+      -
+        value: Sedi
+    field_icms_teaser_title:
+      -
+        value: 'Voluptas aspernatur (Thema B)'
