@@ -90,9 +90,6 @@ default:
           field_icms_pretitle:
             -
               value: 'ICMS Bundle'
-          field_icms_subtitle:
-            -
-              value: 'Locations with addresses and map.'
           field_icms_text:
             -
               value: '<p>The Locations bundle manages locations with address, opening hours and coordinates, and renders them on an interactive map above the listing.</p>'
@@ -123,9 +120,6 @@ default:
             field_icms_pretitle:
               -
                 value: 'ICMS Bundle'
-            field_icms_subtitle:
-              -
-                value: 'Standorte mit Adressen und Karte.'
             field_icms_text:
               -
                 value: '<p>Das Standort-Bundle verwaltet Standorte mit Adresse, Öffnungszeiten und Koordinaten und stellt sie auf einer interaktiven Karte über der Liste dar.</p>'
@@ -149,9 +143,6 @@ default:
             field_icms_pretitle:
               -
                 value: 'ICMS Bundle'
-            field_icms_subtitle:
-              -
-                value: 'Sites avec adresses et carte.'
             field_icms_text:
               -
                 value: '<p>Le bundle Sites gère des sites avec adresse, horaires et coordonnées, et les affiche sur une carte interactive au-dessus de la liste.</p>'
@@ -175,9 +166,6 @@ default:
             field_icms_pretitle:
               -
                 value: 'ICMS Bundle'
-            field_icms_subtitle:
-              -
-                value: 'Sedi con indirizzi e mappa.'
             field_icms_text:
               -
                 value: "<p>Il bundle Sedi gestisce sedi con indirizzo, orari e coordinate e le mostra su una mappa interattiva sopra l'elenco.</p>"

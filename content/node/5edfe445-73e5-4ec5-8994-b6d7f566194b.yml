@@ -277,9 +277,6 @@ default:
           field_icms_media_elements:
             -
               entity: da923ff9-3c3a-4d38-998d-29b826b1036f
-          field_icms_subtitle:
-            -
-              value: 'Consectetur mollis dignissim cubilia ligula lorem.'
           field_icms_text:
             -
               value: '<p>Posuere sociosqu mauris ipsum amet elit potenti tortor porttitor montes dolor consectetur mollis dignissim. <strong>tortor porttitor</strong> lorem sit adipiscing ornare posuere sociosqu.</p>'
@@ -307,9 +304,6 @@ default:
             content_translation_outdated:
               -
                 value: false
-            field_icms_subtitle:
-              -
-                value: 'Iste accusantium totam quae architecto dicta.'
             field_icms_text:
               -
                 value: '<p>Aperiam inventore beatae sed omnis voluptatem laudantium eaque veritatis vitae perspiciatis iste accusantium totam. <strong>eaque veritatis</strong> dicta unde natus doloremque aperiam inventore.</p>'
@@ -330,9 +324,6 @@ default:
             content_translation_outdated:
               -
                 value: false
-            field_icms_subtitle:
-              -
-                value: 'Ducimus voluptatum quos molestias cupiditate vero.'
             field_icms_text:
               -
                 value: '<p>Dolores excepturi provident accusamus dignissimos praesentium corrupti quas occaecati similique iusto ducimus voluptatum quos. <strong>quas occaecati</strong> vero odio blanditiis deleniti dolores excepturi.</p>'
@@ -353,9 +344,6 @@ default:
             content_translation_outdated:
               -
                 value: false
-            field_icms_subtitle:
-              -
-                value: 'Odit magni nesciunt quisquam numquam nemo.'
             field_icms_text:
               -
                 value: '<p>Neque dolorem eius enim aspernatur consequuntur sequi porro adipisci modi ipsam odit magni nesciunt. <strong>porro adipisci</strong> nemo voluptas fugit ratione neque dolorem.</p>'
